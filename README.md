@@ -5,6 +5,10 @@ This Grunt plugin uses [randometc](https://github.com/RandomEtc)'s [ejs-locals](
 
 [![NPM](https://nodei.co/npm/grunt-ejs-locals.png?downloads=true)](https://nodei.co/npm/grunt-ejs-locals/)
 
+* **[EmbeddedJS Docs](http://embeddedjs.com/)**
+* **[How to work with `partials`, `layouts` and `blocks`](https://github.com/RandomEtc/ejs-locals)**
+
+
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
 
@@ -45,12 +49,42 @@ grunt.initConfig({
       expand: true,
       ext: '.html',
       options: {
-        title: 'My awesome website'
+        title: 'EJS-locals',
+				headline: 'EmbeddedJS with locals',
+				paragraph: 'A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.'
       }
     }
   }
 });
 ```
+
+**_layouts/default.ejs**:
+```html
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+		<header>
+			<%- partial('_partials/header') %>
+		</header>
+		<main id="content">
+			<%- body %>
+		</main>
+  </body>
+</html>
+```
+
+**index.ejs**:
+```html
+<% layout('_layouts/default') -%>
+
+<h1><%= headline %></h1>
+<p><%= paragraph %></p>
+```
+
+
+
 
 ## Release History
 
