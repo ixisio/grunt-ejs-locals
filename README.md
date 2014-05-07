@@ -1,19 +1,29 @@
-# grunt-ejs
+# grunt-ejs-locals v0.1.0
 
-A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates.
+A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates the taste of `layouts`, `blocks` and `partials`.
+
+This Grunt plugin uses [randometc](https://github.com/RandomEtc/ejs-locals)/[ejs-locals](https://github.com/RandomEtc/ejs-locals).
 
 ## Getting Started
+This plugin requires Grunt `~0.4.0`
 
-Install this grunt plugin next to your project's
-[Gruntfile.js](http://gruntjs.com/getting-started) with: `npm install grunt-ejs --save-dev`.
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
-Then add this line to your project's `Gruntfile.js`:
-
-```javascript
-grunt.loadNpmTasks('grunt-ejs');
+```shell
+npm install grunt-ejs-locals --save-dev
 ```
 
-## Documentation
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+
+```js
+grunt.loadNpmTasks('grunt-ejs-locals');
+```
+
+## EJS-locals task
+
+@todo
+
+## Usage Examples
 
 Add the task to your config and specify the destination for the compiled file:
 
@@ -21,10 +31,13 @@ Add the task to your config and specify the destination for the compiled file:
 grunt.initConfig({
   ejs: {
     all: {
-      src: ['app/**/*.ejs', '!app/partials/**/*'],
+      src: ['src/**/*.ejs', '!src/partials/**/*'],
       dest: 'dist/',
       expand: true,
       ext: '.html',
+      options: {
+        title: 'My awesome website'
+      }
     },
   },
 });
@@ -36,5 +49,5 @@ grunt.initConfig({
 
 ## License
 
-Copyright (c) 2013 Kyle Robinson Young
+Copyright (c) 2014 Andreas Klein
 Licensed under the MIT license.
