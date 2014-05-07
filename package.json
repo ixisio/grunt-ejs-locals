@@ -1,0 +1,42 @@
+{
+  "name": "grunt-ejs-locals",
+  "description": "A grunt task for rendering ejs templates including ejs-locals.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ixisio/grunt-ejs-locals",
+  "author": {
+    "name": "Andreas Klein",
+    "url": "http://andreasklein.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ixisio/grunt-ejs-locals.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ixisio/grunt-ejs-locals/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ixisio/grunt-ejs-locals/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "ejs": "~0.8.4",
+    "ejs-locals": "~1.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin",
+    "ejs",
+    "ejs-locals",
+    "SSG"
+  ],
+  "readmeFilename": "README.md",
+  "_id": "grunt-ejs-locals@0.1.0",
+  "_from": "grunt-ejs-locals@"
+}
