@@ -1,6 +1,6 @@
 # grunt-ejs-locals v0.1.0
 
-A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates with the taste of `layouts`, `blocks` and `partials`.
+A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates with the taste of `layouts`, `blocks` and `partials`.<br>
 This Grunt plugin uses [randometc](https://github.com/RandomEtc)'s [ejs-locals](https://github.com/RandomEtc/ejs-locals).
 
 [![NPM](https://nodei.co/npm/grunt-ejs-locals.png?downloads=true)](https://nodei.co/npm/grunt-ejs-locals/)
@@ -28,7 +28,7 @@ Run this task with the `grunt ejs` command.
 
 ### Settings
 
-Task `targets`, `files` and `options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+Task `targets`, `files` and `options` may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
 
 ### Usage Examples
