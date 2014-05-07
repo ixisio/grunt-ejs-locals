@@ -50,8 +50,8 @@ grunt.initConfig({
       ext: '.html',
       options: {
         title: 'EJS-locals',
-				headline: 'EmbeddedJS with locals',
-				paragraph: 'A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.'
+        headline: 'EmbeddedJS with locals',
+        paragraph: 'A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.'
       }
     }
   }
@@ -65,12 +65,12 @@ grunt.initConfig({
     <title><%= title %></title>
   </head>
   <body>
-		<header>
-			<%- partial('_partials/header') %>
-		</header>
-		<main id="content">
-			<%- body %>
-		</main>
+    <header>
+      <%- partial('_partials/header') %>
+    </header>
+    <main id="content">
+      <%- body %>
+    </main>
   </body>
 </html>
 ```
@@ -82,6 +82,25 @@ grunt.initConfig({
 <h1><%= headline %></h1>
 <p><%= paragraph %></p>
 ```
+
+**Compiles to**:
+```html
+<html>
+  <head>
+    <title>EJS-locals</title>
+  </head>
+  <body>
+    <header>
+      <p>This is a header partial</p> 
+    </header>
+    <main id="content">
+      <h1>EmbeddedJS with locals</h1>
+      <p>A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.</p>
+    </main>
+  </body>
+</html>
+```
+
 
 
 
