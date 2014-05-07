@@ -1,8 +1,8 @@
 # grunt-ejs-locals v0.1.0
 
-A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates the taste of `layouts`, `blocks` and `partials`.
+A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates with the taste of `layouts`, `blocks` and `partials`.
 
-This Grunt plugin uses [randometc](https://github.com/RandomEtc/ejs-locals)/[ejs-locals](https://github.com/RandomEtc/ejs-locals).
+This Grunt plugin uses [randometc](https://github.com/RandomEtc)'s [ejs-locals](https://github.com/RandomEtc/ejs-locals).
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
@@ -38,8 +38,8 @@ grunt.initConfig({
       options: {
         title: 'My awesome website'
       }
-    },
-  },
+    }
+  }
 });
 ```
 
