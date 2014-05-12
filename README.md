@@ -3,6 +3,9 @@
 A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates with the taste of `layouts`, `blocks` and `partials`.<br>
 This Grunt plugin uses [randometc](https://github.com/RandomEtc)'s [ejs-locals](https://github.com/RandomEtc/ejs-locals).
 
+[![NPM version](https://badge.fury.io/js/grunt-ejs-locals.png)](http://badge.fury.io/js/grunt-ejs-locals)
+[![Dependency Status](https://david-dm.org/ixisio/grunt-ejs-locals.png)](https://david-dm.org/ixisio/grunt-ejs-locals)
+[![devDependency Status](https://david-dm.org/ixisio/grunt-ejs-locals/dev-status.png)](https://david-dm.org/ixisio/grunt-ejs-locals#info=devDependencies)
 [![NPM](https://nodei.co/npm/grunt-ejs-locals.png?downloads=false)](https://nodei.co/npm/grunt-ejs-locals/)
 
 * **[EmbeddedJS Docs](http://embeddedjs.com/)**
