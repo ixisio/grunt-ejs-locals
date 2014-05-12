@@ -1,6 +1,6 @@
 {
   "name": "grunt-ejs-locals",
-  "description": "A grunt task for rendering ejs templates including ejs-locals.",
+  "description": "A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.",
   "version": "0.1.1",
   "homepage": "https://github.com/ixisio/grunt-ejs-locals",
   "author": {
@@ -24,7 +24,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "ejs": "~0.8.4",
+    "ejs": "~0.8.8",
     "ejs-locals": "~1.0.2"
   },
   "devDependencies": {
