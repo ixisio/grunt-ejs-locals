@@ -17,7 +17,6 @@ module.exports = function(grunt) {
     grunt.verbose.writeflags(options, 'Options');
 
     this.files.forEach(function(file) {
-
       // Pass empty settings obj (like express)
       // https://github.com/RandomEtc/ejs-locals/issues/32
       options.settings = {};

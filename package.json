@@ -1,7 +1,7 @@
 {
   "name": "grunt-ejs-locals",
   "description": "A grunt task for rendering ejs templates including ejs-locals.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/ixisio/grunt-ejs-locals",
   "author": {
     "name": "Andreas Klein",
@@ -37,6 +37,6 @@
     "SSG"
   ],
   "readmeFilename": "README.md",
-  "_id": "grunt-ejs-locals@0.1.0",
+  "_id": "grunt-ejs-locals@0.1.1",
   "_from": "grunt-ejs-locals@"
 }

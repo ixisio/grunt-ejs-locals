@@ -1,9 +1,9 @@
-# grunt-ejs-locals v0.1.0
+# grunt-ejs-locals
 
 A Grunt task for compiling [ejs](http://npmjs.org/package/ejs) templates with the taste of `layouts`, `blocks` and `partials`.<br>
 This Grunt plugin uses [randometc](https://github.com/RandomEtc)'s [ejs-locals](https://github.com/RandomEtc/ejs-locals).
 
-[![NPM](https://nodei.co/npm/grunt-ejs-locals.png?downloads=true)](https://nodei.co/npm/grunt-ejs-locals/)
+[![NPM](https://nodei.co/npm/grunt-ejs-locals.png?downloads=false)](https://nodei.co/npm/grunt-ejs-locals/)
 
 * **[EmbeddedJS Docs](http://embeddedjs.com/)**
 * **[How to work with `partials`, `layouts` and `blocks`](https://github.com/RandomEtc/ejs-locals)**
@@ -107,9 +107,11 @@ grunt.initConfig({
 
 ## Release History
 
+* 0.1.1 update tasks documentation
 * 0.1.0 initial release
 
 ## License
 
-Copyright (c) 2014 Andreas Klein
 Licensed under the MIT license.
+
+Copyright (c) 2014 Andreas Klein
