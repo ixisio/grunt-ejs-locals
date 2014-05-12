@@ -24,7 +24,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "ejs": "~0.8.8",
+    "ejs": "~1.0.0",
     "ejs-locals": "~1.0.2"
   },
   "devDependencies": {
