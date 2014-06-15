@@ -9,10 +9,12 @@
 module.exports = function(grunt) {
   'use strict';
 
-  var ejs = require('ejs-locals');
+  var ejs = require('ejs-locals'),
+  _ = require('lodash');
 
   grunt.registerMultiTask('ejs', 'compile ejs templates', function() {
     var options = this.options();
+    options._ = _;
 
     grunt.verbose.writeflags(options, 'Options');
 
