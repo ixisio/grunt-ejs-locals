@@ -12,14 +12,18 @@ module.exports = function(grunt) {
   var ejs = require('ejs-locals');
 
   grunt.registerMultiTask('ejs', 'compile ejs templates', function() {
-    var options = this.options();
-
-    grunt.verbose.writeflags(options, 'Options');
+    var scope = this;
 
     this.files.forEach(function(file) {
+      var options = scope.options();
+
+      grunt.verbose.writeflags(options, 'Options');
+
       // Pass empty settings obj (like express)
       // https://github.com/RandomEtc/ejs-locals/issues/32
-      options.settings = {};
+      if(!options.settings) {
+        options.settings = {};
+      }
 
       // Generate EJS-Locals HTML
       ejs(file.src[0], options, function(err, html) {
@@ -29,6 +33,6 @@ module.exports = function(grunt) {
         grunt.file.write(file.dest, html);
         grunt.log.ok('Wrote ' + file.dest);
       });
-    })
+    });
   });
 };

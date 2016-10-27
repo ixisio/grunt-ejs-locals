@@ -1,7 +1,7 @@
 {
   "name": "grunt-ejs-locals",
   "description": "A Grunt task for compiling ejs templates with the taste of layouts, blocks and partials.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/ixisio/grunt-ejs-locals",
   "author": {
     "name": "Andreas Klein",
